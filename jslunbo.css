@@ -1,0 +1,72 @@
+ *{ 
+ 	margin: 0; 
+ 	padding: 0; 
+ 	text-decoration: none;
+ }
+#Carousel { 
+	width: 430px; 
+	height: 270px; 
+	border: 1px solid #333; 
+	overflow: hidden; 
+	position: relative;
+}
+#list { 
+	width: 3840px; 
+	height: 280px; 
+	position: absolute; 
+	z-index: 1;
+}
+#list li {
+	list-style: none; 
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#Carousel_buttons { 
+	position: absolute; 
+	height: 10px; 
+	width: 100px; 
+	z-index: 2; 
+	bottom: 15px;
+	right: -23px;
+}
+#Carousel_buttons span { 
+	cursor: pointer; 
+	float: left; 
+	border: 1px solid #fff; 
+	width: 10px; height: 10px; 
+	border-radius: 50%; 
+	background: #333; 
+	margin-right: 5px;
+}
+#Carousel_buttons .on {  
+	background: orangered;
+}
+.arrow { 
+	cursor: pointer; 
+	display: none; 
+	line-height: 39px; 
+	text-align: center; 
+	font-size: 36px; 
+	font-weight: bold; 
+	width: 40px; 
+	height: 40px;  
+	position: absolute; 
+	z-index: 2; 
+	top: 45%; 
+	background-color: RGBA(0,0,0,.3); 
+	color: #fff;
+}
+.arrow:hover { 
+	background-color: RGBA(0,0,0,.7);
+	text-decoration:none;
+}
+#Carousel:hover .arrow { 
+	display: block;
+}
+#prev { 
+	left: 20px;
+}
+#next { 
+	right: 20px;
+}

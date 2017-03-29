@@ -1,0 +1,186 @@
+/*初始化*/
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+	margin:0;
+	padding:0
+} 
+body{
+	font-family:"宋体","Times New Roman",Times,serif;
+	background:#fff;
+	-webkit-text-size-adjust:100%;
+} 
+a{
+	color:#000;
+	text-decoration:none;
+} 
+a:hover{
+	text-decoration:underline;
+}
+em{
+	font-style:normal;
+} 
+li{
+	list-style:none;
+} 
+img{
+	border:0;vertical-align:middle;
+} 
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+} 
+p{
+	word-wrap:break-word;
+} 
+/*------页面样式------*/
+#wrap{
+	width: 960px;
+	margin: auto;
+	background: #fff;
+	box-shadow: 2px 0 20px #9f9f9f;
+}
+/*------header样式------*/
+#header{
+	height: 130px;
+	background: url(images/head.jpg);
+}
+/*------nav样式------*/
+.nav{
+	margin-top: 5px;
+	width: 960px;
+	height: 38px;
+	background-color: #0B5288;
+}
+.nav li{
+	float: left;
+	width: 137px;
+	text-align: center;
+	font-size: 16px;
+	height:38px; 
+	line-height:38px;
+}
+.nav a{
+	color: white;
+	text-shadow: 2px 2px 5px #000;
+	text-decoration:none;
+}
+.nav a:hover{
+	text-decoration:underline;
+}
+.nav li:hover{
+	background-color: #063B63;
+}
+.dropdown-menu{
+	background-color: #0B5288;
+	overflow: hidden;
+	height: 0px;
+	position: absolute;
+	z-index: 9999;
+}
+.dropdown-menu li{
+	clear:both;
+}
+.nav li:hover .dropdown-menu{
+	height:114px;
+	transition-property: height;
+	transition-duration: 0.2s;
+	/* Firefox */
+	-moz-transition-property: height;
+	-moz-transition-duration: 0.2s;
+	/* Safari and Chrome */
+	-webkit-transition-property: height;
+	-webkit-transition-duration: 0.2s;
+	/* Opera */
+	-o-transition-property: height;
+	-o-transition-duration: 0.2s;
+}
+/*-------content样式-------*/
+/*-------轮播图样式-------*/
+#Carousel{
+	float: left;
+}
+#content{
+	padding:15px 40px;
+}
+.imagecontent{
+	width: 430px;
+	height: 270px;
+}
+img{
+	width:100%;
+	height: 100%;
+}
+.imagetext{
+	background-color:rgba(0, 0, 0, 0.25);
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	height: 30px;
+	padding-top: 10px;
+}
+.imagetext a{
+	margin-left: 10px;
+	font-size: 14px;
+	color: white;
+}
+/*-------工作动态与通知公告样式-------*/
+.gzdt{
+	float: right;
+	text-align: left;
+	height: 272px;
+	width: 420px;
+}
+h1{
+	margin-top: 25px;
+	margin-left: 20px;
+	color: #6CA5DC;
+	margin-bottom: 10px;
+}
+.gzdt ul,.tzgg ul{
+	margin-left: 20px;
+}
+.gzdt ul li,.tzgg ul li{
+	list-style: outside;
+	margin-bottom: 10px;
+	color: #6CA5DC;
+}
+.more{
+	float: right;
+	margin-right: 50px;
+	font-size: 14px;
+}
+.tzgg{
+	float: left;
+	width: 430px;
+	height: 222px;
+}
+/*------审计业务样式------*/
+.sjyw{
+	float: right;
+	width: 420px;
+	height: 222px;
+	overflow: hidden;
+}
+.sjyw h1{
+	margin-top: 20px;
+}
+.sjyw .baner{
+	margin-top: 10px;
+	height: 80px;
+	width: 100%;
+	background-image: url("images/baner.jpg");
+}
+.sjyw ul li{
+	float: left;
+	margin-left: 20px;
+}
+/*------copyright样式------*/
+#copyright{
+	font-size: 12px;
+	width: 960px;
+	height: 45px;
+	background: #e4e4e4;
+	margin-top: 10px;
+	padding-top: 10px;
+	clear: both;
+	text-align: center;
+}
