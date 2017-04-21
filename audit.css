@@ -43,6 +43,9 @@ p{
 	height: 130px;
 	background: url(images/head.jpg);
 }
+#myheader{
+	height: 173px;
+}
 /*------nav样式------*/
 .nav{
 	margin-top: 5px;
@@ -70,13 +73,13 @@ p{
 	background-color: #063B63;
 }
 .dropdown-menu{
-	background-color: #0B5288;
 	overflow: hidden;
 	height: 0px;
 	position: absolute;
 	z-index: 9999;
 }
 .dropdown-menu li{
+	background-color: #0B5288;
 	clear:both;
 }
 .nav li:hover .dropdown-menu{
@@ -97,9 +100,10 @@ p{
 /*-------轮播图样式-------*/
 #Carousel{
 	float: left;
+	margin-left: 40px;
+	margin-top: 15px;
 }
 #content{
-	padding:15px 40px;
 }
 .imagecontent{
 	width: 430px;
@@ -124,6 +128,8 @@ img{
 }
 /*-------工作动态与通知公告样式-------*/
 .gzdt{
+	margin-top: 15px;
+	margin-right: 40px;
 	float: right;
 	text-align: left;
 	height: 272px;
@@ -140,15 +146,17 @@ h1{
 }
 .gzdt ul li,.tzgg ul li{
 	list-style: outside;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	color: #6CA5DC;
 }
 .more{
 	float: right;
 	margin-right: 50px;
-	font-size: 14px;
+	font-size: 13px;
+	margin-top: -15px;
 }
 .tzgg{
+	margin-left: 40px;
 	float: left;
 	width: 430px;
 	height: 222px;
@@ -159,19 +167,21 @@ h1{
 	width: 420px;
 	height: 222px;
 	overflow: hidden;
+	margin-right: 40px;
 }
 .sjyw h1{
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .sjyw .baner{
-	margin-top: 10px;
 	height: 80px;
 	width: 100%;
 	background-image: url("images/baner.jpg");
 }
-.sjyw ul li{
+.sjyw li{
+	width: 80px;
 	float: left;
 	margin-left: 20px;
+	margin-bottom: 5px;
 }
 /*------copyright样式------*/
 #copyright{
