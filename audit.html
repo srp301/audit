@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="audit.css">
-	<link rel="stylesheet" href="jslunbo.css">
-	<script type="text/javascript" src="animate.js"></script>
+	<link rel="stylesheet" href="css/audit.css">
+	<link rel="stylesheet" href="css/jslunbo.css">
+	<script type="text/javascript" src="js/animate.js"></script>
 	<title>武汉理工大学审计处</title>
 </head>
 <body>
@@ -12,36 +12,55 @@
 		<div id="header"></div>
 		<div id="nav" class="nav">
 			<ul>
-				<li id="li1"><a href="#">部门概况</a></li>
-				<li><a href="audit_list.html?id=1">法规制度</a></li>
-				<li><a href="">工作动态</a>
+				<li><a href="#">部门概况</a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="">工作动态1</a></li>
-							<li><a href="">工作动态2</a></li>
-							<li><a href="">工作动态3</a></li>
+							<li><a href="">部门简介</a></li>
+							<li><a href="">部门领导</a></li>
+							<li><a href="">内设机构</a></li>
+							<li><a href="">计划总结</a></li>
+						</ul>
+					</div>		
+				</li>
+				<li><a href="audit_list.html">法规制度</a>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="">国家法律</a></li>
+							<li><a href="">部门法规</a></li>
+							<li><a href="">学校制度</a></li>
+							<li><a href="">审计制度</a></li>
+						</ul>
+					</div>	
+				</li>
+				<li><a href="audit_list.html?id=0">工作动态</a></li>
+				<li><a href="">文化建设</a>
+					<div class="dropdown-menu">
+						<ul>
+							<li><a href="">支部建设</a></li>
+							<li><a href="">工会活动</a></li>
+							<li><a href="">文化生活</a></li>
 						</ul>
 					</div>
 				</li>
-				<li><a href="">文化建设</a></li>
 				<li><a href="">学习园地</a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="">学习园地1</a></li>
-							<li><a href="">学习园地2</a></li>
-							<li><a href="">学习园地3</a></li>
+							<li><a href="">他山之石</a></li>
+							<li><a href="">业务交流</a></li>
+							<li><a href="">案例研讨</a></li>
 						</ul>
 					</div>
 				</li>
-				<li><a href="">工作清单</a></li>
-				<li><a href="">信息公开</a>
+				<li><a href="">工作清单</a>
 					<div class="dropdown-menu">
 						<ul>
-							<li><a href="">信息公开1</a></li>
-							<li><a href="">信息公开2</a></li>
+							<li><a href="">责任清单</a></li>
+							<li><a href="">负面清单</a></li>
+							<li><a href="">服务清单</a></li>
 						</ul>
 					</div>
 				</li>
+				<li><a href="">信息公开</a></li>
 			</ul>
 		</div>
 		<div id="content">
@@ -89,7 +108,7 @@
 					<li><a href="">审计处组织收看专题片《打铁还需自身硬》</a></li>
 					<li><a href="">审计处举行专题政治学习活动</a></li>
 				</ul>
-				<div><a class="more" href="">更多+</a></div>
+				<div><a class="more" href="">更多</a></div>
 			</div>
 			<div class="tzgg">
 				<h1>通知公告</h1>
@@ -97,20 +116,21 @@
 					<li><a href="">2017年经济责任审计工作联席会召开</a></li>
 					<li><a href="">审计处组织收看专题片《打铁还需自身硬》</a></li>
 					<li><a href="">审计处举行专题政治学习活动</a></li>
+					<li><a href="">审计处组织收看专题片《打铁还需自身硬》</a></li>
 				</ul>
-				<div><a class="more" href="">更多+</a></div>
+				<div><a class="more" href="">更多</a></div>
 			</div>
 			<div class="sjyw">
 				<div class="baner"></div>
-				<h1>审计业务</h1>
+				<h2>审计业务</h2>
 				<ul>
 					<li><a href="">财务审计</a></li>
 					<li><a href="">工程审计</a></li>
 					<li><a href="">业务规范</a></li>
 					<li><a href="">业务下载</a></li>
 				</ul>
+				<h2>友情链接</h2>
 				<ul>
-					<li><a href="">友情链接：</a></li>
 					<li><a href="">校内链接</a></li>
 					<li><a href="">校外链接</a></li>
 					<li><a href="">发票查询</a></li>
@@ -122,8 +142,5 @@
 			<span>武汉理工大学审计处&nbsp;&copy;版权所有</span>
 		</div>
 	</div>
-	<script type="text/javascript">
-		alert(document.getElementById("li1").innerText);
-	</script>
 </body>
 </html>

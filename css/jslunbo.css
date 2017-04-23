@@ -4,8 +4,6 @@
  	text-decoration: none;
  }
 #Carousel { 
-	width: 430px; 
-	height: 270px; 
 	border: 1px solid #333; 
 	overflow: hidden; 
 	position: relative;

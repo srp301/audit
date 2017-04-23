@@ -1,5 +1,5 @@
 /*初始化*/
-body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+*{
 	margin:0;
 	padding:0
 } 
@@ -41,7 +41,7 @@ p{
 /*------header样式------*/
 #header{
 	height: 130px;
-	background: url(images/head.jpg);
+	background: url(../images/head.jpg);
 }
 #myheader{
 	height: 173px;
@@ -67,7 +67,7 @@ p{
 	text-decoration:none;
 }
 .nav a:hover{
-	text-decoration:underline;
+	color: #FFCC2D;
 }
 .nav li:hover{
 	background-color: #063B63;
@@ -83,7 +83,7 @@ p{
 	clear:both;
 }
 .nav li:hover .dropdown-menu{
-	height:114px;
+	height:152px;
 	transition-property: height;
 	transition-duration: 0.2s;
 	/* Firefox */
@@ -102,12 +102,14 @@ p{
 	float: left;
 	margin-left: 40px;
 	margin-top: 15px;
+	width: 430px; 
+	height: 260px; 
 }
 #content{
 }
 .imagecontent{
 	width: 430px;
-	height: 270px;
+	height: 260px;
 }
 img{
 	width:100%;
@@ -116,7 +118,7 @@ img{
 .imagetext{
 	background-color:rgba(0, 0, 0, 0.25);
 	position: absolute;
-	bottom: 10px;
+	bottom: 20px;
 	width: 100%;
 	height: 30px;
 	padding-top: 10px;
@@ -132,7 +134,7 @@ img{
 	margin-right: 40px;
 	float: right;
 	text-align: left;
-	height: 272px;
+	height: 262px;
 	width: 420px;
 }
 h1{
@@ -159,23 +161,26 @@ h1{
 	margin-left: 40px;
 	float: left;
 	width: 430px;
-	height: 222px;
+	height: 240px;
 }
 /*------审计业务样式------*/
 .sjyw{
 	float: right;
 	width: 420px;
-	height: 222px;
+	height: 240px;
 	overflow: hidden;
 	margin-right: 40px;
 }
-.sjyw h1{
+.sjyw h2{
 	margin-top: 10px;
+	margin-left: 20px;
+	color: #6CA5DC;
+	margin-bottom: 10px;
 }
 .sjyw .baner{
 	height: 80px;
 	width: 100%;
-	background-image: url("images/baner.jpg");
+	background-image: url(../images/baner.jpg);
 }
 .sjyw li{
 	width: 80px;
@@ -187,7 +192,7 @@ h1{
 #copyright{
 	font-size: 12px;
 	width: 960px;
-	height: 45px;
+	height: 40px;
 	background: #e4e4e4;
 	margin-top: 10px;
 	padding-top: 10px;
