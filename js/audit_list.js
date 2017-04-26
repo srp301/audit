@@ -39,12 +39,21 @@ window.onload = function(){
 	if(list[a]===undefined){
 		current_location_str = str1+args.nav+str2+list[args.nav]+str3;
 	}else{
-		window.location.href="audit_list.html?nav="+a;
+		if(document.querySelector(".content")){
+			window.location.href="audit_content.html?nav="+a;
+		}else{
+			window.location.href="audit_list.html?nav="+a;
+		}
 		return;
 	}
 	if(args.nav.length==5){
 		args2 = args.nav.slice(0,4);
-		current_location_str = str1+args2+str2+list[args2]+str3+" > "+str1+args.nav+str2+list[args.nav]+str3;
+		if(document.querySelector(".content")){
+			current_location_str = str1+args2+str2+list[args2]+str3+" > "+
+								   str1+args.nav+str2+list[args.nav]+str3+" > 正文";
+		}else{
+			current_location_str = str1+args2+str2+list[args2]+str3+" > "+str1+args.nav+str2+list[args.nav]+str3;
+		}
 	}
 	var current_location = document.getElementById("current_location");
 	var new_current_location = current_location.innerHTML;

@@ -4,7 +4,7 @@
 	padding: 10px 0 0 40px;
 }
 .current_location a{
-	font-size: 14px;
+	font-size: 16px;
 	color: #0D5D8C;
 }
 .link{
@@ -18,6 +18,9 @@
 	margin: 0 auto;
 	border-bottom:1px solid #E1E1E1; 
 	overflow: hidden;
+}
+.content p{
+	line-height: 27px;
 }
 .content h2{
 	margin: 10px 0;
